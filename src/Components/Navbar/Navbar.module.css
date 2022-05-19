@@ -1,0 +1,27 @@
+.navbar {
+  width: 250px;
+  height: 100vh;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  overflow-y: scroll;
+}
+.navbar::-webkit-scrollbar {
+  display: none;
+}
+
+.top {
+  padding: 0px 20px;
+  width: 100%;
+  min-height: 100px;
+  background-color: rgb(210, 148, 123);
+  border-bottom: 1px solid gray;
+}
+
+.topicList {
+  width: 100%;
+  list-style-type: none;
+  background-color: bisque;
+  height: 100%;
+}
